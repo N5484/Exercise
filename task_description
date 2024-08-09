@@ -1,0 +1,20 @@
+
+Given a matrix of m*n, each cells filled with one of the following:
+    'S' -   Starting point
+    'T' -   Treasure: the goal of the Treasurehunt
+    '#' -   wall: you can't step on it
+    '-' -   empty field: you can step on it
+Your task is to find the shotest path from Starting point to the Treasure. 
+You can move on 4 directions ( North, South, East, West).
+Print the minimal number of steps taken on a path (sequence of '-') between 'S' and 'T'.
+
+EXAMPLE:
+
+Input: grid = [
+    ['-', '-', '-', '#', '-', '-', '-', '-'],
+    ['#', '#', '-', '#', '-', '#', '-', '-'],
+    ['-', '-', '-', '-', '-', '#', '-', '-'],
+    ['-', '#', '#', '#', '-', '-', 'T', '-'],
+    ['-', '-', 'S', '#', '-', '#', '-', '-']
+]
+Output: 11
